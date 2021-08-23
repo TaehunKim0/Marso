@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Frame\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Frame\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Frame\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="Texture.cpp">
+      <Filter>Frame\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>Frame\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Frame\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Frame\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Frame\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>Frame\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>Frame\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Frame\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Game\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightEnemy.cpp">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DashEnemy.cpp">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DivideEnemy.cpp">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightEnemy.cpp">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="OurHero.cpp">
+      <Filter>Game\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Game\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleBoss1.cpp">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleBoss2.cpp">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="LastBoss1.cpp">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="LastBoss2.cpp">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Game\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp_UI.cpp">
+      <Filter>Game\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Lazer.cpp">
+      <Filter>Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Progress.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AddOn.cpp">
+      <Filter>Game\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Meteor.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp" />
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Frame\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Frame\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Node.h">
+      <Filter>Frame\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>Frame\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Frame\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Frame\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Frame\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Frame\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>Frame\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>Frame\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Frame\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Game\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StraightEnemy.h">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DashEnemy.h">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DivideEnemy.h">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightEnemy.h">
+      <Filter>Game\Unit\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="OurHero.h">
+      <Filter>Game\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Game\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleBoss1.h">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleBoss2.h">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="LastBoss1.h">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="LastBoss2.h">
+      <Filter>Game\Unit\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemys.h" />
+    <ClInclude Include="Effect.h">
+      <Filter>Game\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp_UI.h">
+      <Filter>Game\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Lazer.h">
+      <Filter>Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Progress.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="AddOn.h">
+      <Filter>Game\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Meteor.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h" />
+    <ClInclude Include="EndingScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Frame">
+      <UniqueIdentifier>{9442d1fd-e890-44e8-a447-104f75b3f4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame\Mgr">
+      <UniqueIdentifier>{59e66971-2133-42b4-b43c-16bda410fccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame\Nodes">
+      <UniqueIdentifier>{6c3502e7-0036-47bc-96a5-1bd336817b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e4ee0554-26a1-4531-824c-08936855926e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{5d4bb5bc-3a52-4958-a7dd-a914dc0bccab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Unit">
+      <UniqueIdentifier>{98ee5c39-7ecd-4cfc-954a-743ab2cc5c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullet">
+      <UniqueIdentifier>{0eb4ef87-4ba5-42c9-80f1-ec4535e560e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Mgr">
+      <UniqueIdentifier>{ce2b5273-4afd-4a69-9e63-49e5b69d2bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Unit\Enemy">
+      <UniqueIdentifier>{3c2c97cf-0cf5-49c9-b5e4-4a4dc2d3f810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Unit\Boss">
+      <UniqueIdentifier>{1507ef16-9feb-46a4-8dab-01addcab9f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Unit\Player">
+      <UniqueIdentifier>{84e51c7c-f1db-424f-a6a8-3989e17085ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Item">
+      <UniqueIdentifier>{68e78d36-bcee-48eb-b67a-35adb2333477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect">
+      <UniqueIdentifier>{fd25df52-0a1a-42e8-98f6-5f4f26fef069}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
